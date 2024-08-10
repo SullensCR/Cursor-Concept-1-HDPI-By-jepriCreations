@@ -1,0 +1,80 @@
+[Version]
+signature="$CHICAGO$"
+Cursor Concept 1 Dark HDPI By JepriCreations
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg,Wreg 
+
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%arrow%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%working%,%10%\%CUR_DIR%\%wait%,%10%\%CUR_DIR%\%precision%,%10%\%CUR_DIR%\%beam%,%10%\%CUR_DIR%\%pen%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgnl%,%10%\%CUR_DIR%\%dgnr%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%up%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%person%,%10%\%CUR_DIR%\%pin%"
+
+
+[Wreg]
+HKCU,"Control Panel\Cursors",,0x00020000,"%SCHEME_NAME%"
+HKCU,"Control Panel\Cursors",AppStarting,0x00020000,"%10%\%CUR_DIR%\%working%"
+HKCU,"Control Panel\Cursors",Arrow,0x00020000,"%10%\%CUR_DIR%\%arrow%"
+HKCU,"Control Panel\Cursors",crosshair,0x00020000,"%10%\%CUR_DIR%\%precision%"
+HKCU,"Control Panel\Cursors",precisionhair,0x00020000,"%10%\%CUR_DIR%\%precision%"
+HKCU,"Control Panel\Cursors",Hand,0x00020000,"%10%\%CUR_DIR%\%link%"
+HKCU,"Control Panel\Cursors",Help,0x00020000,"%10%\%CUR_DIR%\%help%"
+HKCU,"Control Panel\Cursors",IBeam,0x00020000,"%10%\%CUR_DIR%\%beam%"
+HKCU,"Control Panel\Cursors",No,0x00020000,"%10%\%CUR_DIR%\%unavailable%"
+HKCU,"Control Panel\Cursors",NWPen,0x00020000,"%10%\%CUR_DIR%\%pen%"
+HKCU,"Control Panel\Cursors",SizeAll,0x00020000,"%10%\%CUR_DIR%\%move%"
+HKCU,"Control Panel\Cursors",SizeNESW,0x00020000,"%10%\%CUR_DIR%\%dgnr%"
+HKCU,"Control Panel\Cursors",SizeNS,0x00020000,"%10%\%CUR_DIR%\%vert%"
+HKCU,"Control Panel\Cursors",SizeNWSE,0x00020000,"%10%\%CUR_DIR%\%dgnl%"
+HKCU,"Control Panel\Cursors",SizeWE,0x00020000,"%10%\%CUR_DIR%\%horz%"
+HKCU,"Control Panel\Cursors",UpArrow,0x00020000,"%10%\%CUR_DIR%\%up%"
+HKCU,"Control Panel\Cursors",Wait,0x00020000,"%10%\%CUR_DIR%\%wait%"
+HKCU,"Control Panel\Cursors",Person,0x00020000,"%10%\%CUR_DIR%\%person%"
+HKCU,"Control Panel\Cursors",Pin,0x00020000,"%10%\%CUR_DIR%\%pin%"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Runonce\Setup\","",,"rundll32.exe shell32.dll,Control_RunDLL main.cpl @0,1"
+
+[Scheme.Cur]
+"arrow.cur"
+"help.cur"
+"working.ani"
+"busy.ani"
+"precision.cur"
+"pen.cur"
+"unavailable.cur"
+"vert.cur"
+"horz.cur"
+"dgnl.cur"
+"dgnr.cur"
+"move.cur"
+"up.cur"
+"link.cur"
+"beam.cur"
+"person.cur"
+"pin.cur"
+
+
+[Strings]
+CUR_DIR     = "Cursors\cursor_concept_1_hdpi_dark"
+SCHEME_NAME = "Cursor Concept 1 HDPI Dark by Jepri Creations"
+arrow		= "arrow.cur"
+help		= "help.cur"
+working		= "working.ani"
+wait		= "busy.ani"
+precision	= "precision.cur"
+pen		    = "pen.cur"
+beam		= "beam.cur"
+unavailable	= "unavailable.cur"
+vert		= "vert.cur"   
+horz		= "horz.cur"
+dgnl		= "dgnl.cur"
+dgnr		= "dgnr.cur"
+move		= "move.cur"
+up	        = "up.cur"
+link		= "link.cur"
+person      = "person.cur"
+pin         = "pin.cur"
+
+
